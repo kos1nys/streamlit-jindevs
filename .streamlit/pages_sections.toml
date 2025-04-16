@@ -1,5 +1,5 @@
 [[pages]]
-path = "about.py"
+path = "pages/about.py"
 name = "О нас"
 icon = "📎"
 
