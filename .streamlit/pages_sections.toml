@@ -2,3 +2,13 @@
 path = "about.py"
 name = "О нас"
 icon = "📎"
+
+[[pages]]
+name = "Стихийный порядок"
+icon = "🔮"
+is_section = true
+
+[[pages]]
+path = "StihiyniyPoryadok/main.py"
+name = "Главное"
+icon = "📕"
