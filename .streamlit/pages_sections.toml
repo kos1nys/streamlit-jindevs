@@ -10,5 +10,5 @@ is_section = true
 
 [[pages]]
 path = "pages/pastProjects/StihiyniyPoryadok.py"
-name = "Главное"
+name = "Стихийный порядок"
 icon = "🔮"
