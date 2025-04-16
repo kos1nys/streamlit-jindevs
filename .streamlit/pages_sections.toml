@@ -1,0 +1,4 @@
+[[pages]]
+path = "about.py"
+name = "О нас"
+icon = "📎"

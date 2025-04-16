@@ -1,5 +1,13 @@
 import streamlit as st
+from st_pages import add_page_title, get_nav_from_toml
 
-st.title('Сервер')
-st.write('На данном сервере находяться все необходимые файлы.')
-st.download_button('Скачать', data='/storage/orig.jpg')
+st.set_page_config(layout="wide")
+nav = get_nav_from_toml(".streamlit/pages_sections.toml")
+
+st.logo("logo.png")
+
+pg = st.navigation(nav)
+
+add_page_title(pg)
+
+pg.run()
