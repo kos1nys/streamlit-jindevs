@@ -11,7 +11,7 @@ st.write("""
 - Forge 1.20.1
 - AutoModpack 4.0.0-beta.29 ( Мод )
 """)
-with open("/storage/automodpack-mc1.20.1-forge-4.0.0-beta29.jar", "rb") as file:
+with open("storage/automodpack-mc1.20.1-forge-4.0.0-beta29.jar", "rb") as file:
     st.download_button("Скачать мод", file, "automodpack-mc1.20.1-forge-4.0.0-beta29.jar")
 st.write("""       
 После установки нужных версий и мода, просто запустите майнкрафт и как всегда заходите на `d3.rustix.me:25108`
