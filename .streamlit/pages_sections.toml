@@ -9,9 +9,9 @@ icon = "📰"
 is_section = true
 
 [[pages]]
-path = "pages/news/StartServer.py"
-name = "Старт сервера"
-icon = "🚀"
+path = "pages/news/BetaServer.py"
+name = "БЕТА-версия"
+icon = "🌐"
 
 [[pages]]
 name = "Прошлые проекты"
